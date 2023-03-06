@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Konversi Nilai Angka</title>
+</head>
+<script language="javascript">
+	var angka = prompt("Nilai (0-100): ",0);
+	var hasil = "";
+	if (angka>81 && angka<=100) 
+		hasil = "A";
+	else if (angka>71 && angka<=80)
+		hasil = "AB"
+	else if (angka>66 && angka<=70)
+		hasil = "B"
+	else if (angka>61 && angka<=65)
+		hasil = "BC"
+	else if (angka>56 && angka<=60)
+		hasil = "C"
+	else if (angka>41 && angka<=55)
+		hasil = "D"
+	else if (angka>0 && angka<=41)
+		hasil = "E"
+	else 
+		hasil = "Angka Salah";
+	document.write("Hasil: " + hasil);
+	//->
+</script>
+<body>
+</body>
+</html>
